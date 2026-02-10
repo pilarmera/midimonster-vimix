@@ -12,13 +12,13 @@ To use this, install Midimonster library, connect the nanoKONTROL2 to the comput
 
 ## Files included
 
-- vimix.nnktrl2_data: scene file for nanoKONTROL2, loaded to the device using the Korg Kontrol Editor.
-- vimix-controllers.cfg: midimonster config file with midi-osc mappings.
-- functions.lua: lua script with helper functions called by config file.
+- [vimix.nnktrl2_data](https://github.com/decrecementofeliz/midimonster-vimix/blob/main/vimix.nktrl2_data): scene file for nanoKONTROL2, loaded to the device using the Korg Kontrol Editor.
+- [vimix-controllers.cfg](https://github.com/decrecementofeliz/midimonster-vimix/blob/main/vimix-controllers.cfg): midimonster config file with midi-osc mappings.
+- [functions.lua](https://github.com/decrecementofeliz/midimonster-vimix/blob/main/functions.lua): lua script with helper functions called by config file.
 
 ## Requirements
 
-- [Vimix](https://brunoherbelin.github.io/vimix/: live video mixer software
+- [Vimix](https://brunoherbelin.github.io/vimix/): live video mixer software. Available for Linux and Mac.
 - [Midimonster](https://midimonster.net/) library 
 - [Korg nanoKONTROL2](https://www.korg.com/us/products/computergear/nanoKONTROL2/) physical controller (and [Korg Kontrol Editor](https://www.korg.com/us/support/download/software/0/159/1354/) to load scene template file).
 
@@ -32,4 +32,4 @@ To-do:
 Some issues:
 - midimonster forces all osc patterns to have at least one argument, so messages like vimix/current/flag to jump to next flag are not working (they overlaps with `vimix/current/flag {flag_index}`)
 - midimonster only allows values of the type i, f, h, d. You can't send a string as an argument (i.e. `/current/{source_name}`)
-- midimonster considers '#' character as illegal, so messages like /batch/#0 are not allowed.  
+- midimonster considers '#' character as illegal, so messages like `/batch/#0` are not allowed.  
