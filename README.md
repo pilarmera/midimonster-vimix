@@ -12,9 +12,9 @@ To use this, install Midimonster library, connect the nanoKONTROL2 to the comput
 
 ## Files included
 
-- [vimix.nnktrl2_data](https://github.com/decrecementofeliz/midimonster-vimix/blob/main/vimix.nktrl2_data): scene file for nanoKONTROL2, loaded to the device using the Korg Kontrol Editor.
-- [vimix-controllers.cfg](https://github.com/decrecementofeliz/midimonster-vimix/blob/main/vimix-controllers.cfg): midimonster config file with midi-osc mappings.
-- [functions.lua](https://github.com/decrecementofeliz/midimonster-vimix/blob/main/functions.lua): lua script with helper functions called by config file.
+- [vimix.nnktrl2_data](https://github.com/pilarmera/midimonster-vimix/blob/main/vimix.nktrl2_data): scene file for nanoKONTROL2, loaded to the device using the Korg Kontrol Editor.
+- [vimix-controllers.cfg](https://github.com/pilarmera/midimonster-vimix/blob/main/vimix-controllers.cfg): midimonster config file with midi-osc mappings.
+- [functions.lua](https://github.com/pilarmera/midimonster-vimix/blob/main/functions.lua): lua script with helper functions called by config file.
 
 ## Requirements
 
